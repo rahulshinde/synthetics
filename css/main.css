@@ -218,16 +218,17 @@ p {
 .back a:link,
 .back a:visited {
 	position: fixed;
-	left: 5px;
-	bottom: 5px;
+	bottom: 0;
 	margin-top: 50px;
 	margin-right: 40px;
 	font-size: 24px;
 	font-family: 'Rubik', serif;
 	font-weight: 500;
+	padding: 5px;
 
 	text-decoration: none;
 	color: black;
+	background-color: white;
 }
 
 

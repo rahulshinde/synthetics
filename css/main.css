@@ -146,30 +146,44 @@ p {
 
 .website-top {
 	width: 35%;
-	margin-top: 80px;
+	margin-top: 100px;
 	margin-left: 90px;
 	outline: 1px solid rgba(0,0,0,0.1);
 }
 
 .website {
 	width: 35%;
-	margin-top: 60px;
+	margin-top: 80px;
 	margin-left: 90px;
 	outline: 1px solid rgba(0,0,0,0.1);
 }
 
-.website {
+.website-bottom {
 	margin-bottom: 70px;
 }
 
 .poster {
 	width: 80%;
 	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .name-tag {
-	margin-top: -100px;
+	margin-top: -425px;
 	float: right;
 	margin-right: 6%;
 	width: 40%;
+}
+
+.back {
+	margin-top: 50px;
+	margin-right: 40px;
+}
+
+.back a {
+	margin-top: 50px;
+	margin-right: 40px;
+	font-size: 24px;
+	font-family: 'Rubik', serif;
+	font-weight: 500;
 }

@@ -125,7 +125,12 @@ p {
 	height:100%;
 }
 
-/*Stylesheet*/
+.stylesheet-info {
+	position: fixed;
+	
+}
+
+/*images*/
 
 .stylesheet {
 	float: left;
@@ -135,7 +140,6 @@ p {
 	outline: 1px solid rgba(0,0,0,0.1);
 	box-shadow: 6px 6px 8px rgba(0,0,0,0.6);
 	z-index: 20;
-
 
 }
 
@@ -200,4 +204,28 @@ p {
 
 	text-decoration: none;
 	color: black;
+}
+
+/*  =======================
+    MEDIA QUERIES
+    ======================= */
+
+@media screen and (max-width: 1194px) { 
+
+	.name-tag {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 970px) { 
+	
+	.name-tag {
+		margin-top: -225px;
+	}
+
+	.stylesheet {
+		float: none;
+		width: 80%;
+		margin-left: 10%;
+	}
 }

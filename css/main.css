@@ -74,12 +74,17 @@ table {
 	=========================== */
 
 h1 {
+	margin-left: 90px;
 	font-family: 'Rubik', serif;
 	font-weight: 500;
 	font-size: 50px;
+	color: rgb(0,0,74);
+	
 }
 
 p {
+	margin-top: 20px;
+	margin-left: 90px;
 	font-family: 'Rubik', serif;
 	font-weight: 300;
 	font-size: 16px;
@@ -121,7 +126,43 @@ p {
 
 /*Stylesheet*/
 
-.stylsheet {
+.stylesheet {
+	float: left;
+	width: 39%;
+	margin-left: 90px;
+	margin-top: 50px;
+	outline: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 6px 6px 8px rgba(0,0,0,0.6);
+	z-index: 20;
+}
+
+.tote {
 	float: right;
-	width: 50%;
+	width: 51%;
+	margin-top: 30px;
+	z-index: 1;
+}
+
+
+.name-tag {
+	float: left;
+	margin-top: -650px;
+	margin-left: 80px;
+	width: 40%;
+	z-index: 20;
+}
+
+.website-top {
+	width: 40%;
+	margin-left: 5%;
+}
+
+.website {
+	margin-top: 20px;
+	width: 40%;
+	margin-left: 5%;
+}
+
+.poster {
+	width: 90%;
 }

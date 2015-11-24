@@ -73,29 +73,33 @@ table {
 		Typography
 	=========================== */
 
+h1 {
+
+}
+
+h2 {
+
+}
 
 /* 	===========================
-		Column Left
+		Text
 	=========================== */
 
-.column-left {
+.text {
 	float: left;
 	width: 50%;
 }
 
 /* 	===========================
-		Column Right
+		Video
 	=========================== */
 
-.column-right {
-	float: right;
-	width: 50%;
-}
-
 .video-wrapper {
-	width:80%; 
+	float: right;
+	width:35%; 
 	height:100%; 
-	margin:0 auto;
+	margin-top: 20px;
+	margin-right: 5%;
 }
 
 .h_iframe {

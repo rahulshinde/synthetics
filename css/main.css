@@ -218,17 +218,14 @@ p {
 .back a:link,
 .back a:visited {
 	position: fixed;
-	bottom: 0;
+	left: 5px;
+	bottom: 5px;
 	margin-top: 50px;
 	margin-right: 40px;
 	font-size: 24px;
 	font-family: 'Rubik', serif;
 	font-weight: 500;
-	padding: 5px;
 
-	text-decoration: none;
-	color: black;
-	background-color: white;
 }
 
 
@@ -308,6 +305,17 @@ p {
 
 	.website-bottom {
 		margin-bottom: 70px;
+	}
+
+
+	.back a:link,
+	.back a:visited {
+		padding: 5px;
+	
+		text-decoration: none;
+		color: black;
+		background-color: white;
+	
 	}
 	
 }

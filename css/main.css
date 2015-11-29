@@ -259,15 +259,42 @@ p {
     ======================= */
 
 @media screen and (max-width: 1000px) { 
+	
+	h1 {
+		font-size: 36px;
+	
+	}
+
+	p {
+		font-size: 14px;
+	}
+	.video-wrapper {
+		margin-top: 115px;
+	}
 
 	.stylesheet {
 		float: none;
+		margin-top: 60px;
+		margin-bottom: 30px;
 		width: 80%;
 		margin-left: 10%;
 	}
 }
 
-@media screen and (max-width: 666px) { 
+@media screen and (max-width: 666px) {
+
+	.stylesheet {
+		display: none;
+	}
+
+	h1 {
+		font-size: 50px;
+		
+	}
+
+	p {
+		font-size: 16px;
+	} 
 
 	.web {
 		display: none;
@@ -306,7 +333,7 @@ p {
 
 	.website {
 		width: 90%;
-		margin-top: 80px;
+		margin-top: 60px;
 		margin-left: 5%;
 		outline: 1px solid rgba(0,0,0,0.1);
 	}

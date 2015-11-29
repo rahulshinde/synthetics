@@ -1,3 +1,6 @@
-$( ".stylesheet" ).click(function() {
-  alert( "Handler for .click() called." );
+$(document).ready(function(){
+	$( ".stylesheet" ).click(function() {
+  		$('.stylesheet-info').fadeToggle('fast', function() {});
+	});
+
 });

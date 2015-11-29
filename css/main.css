@@ -125,6 +125,22 @@ p {
 	height:100%;
 }
 
+#close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	padding: 5px 10px;
+	font-family: 'Rubik', serif;
+	font-weight: 300;
+	outline: 1px solid black;
+}
+
+#close:hover {
+	cursor:pointer;
+	background-color: black;
+	color: white;
+}
+
 .stylesheet-info {
 	position: fixed;
 	top: 60px;

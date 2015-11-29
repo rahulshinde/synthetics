@@ -125,14 +125,6 @@ p {
 	height:100%;
 }
 
-.stylesheet:hover + .stylesheet-info {
-	display: block;
-}
-
-.stylesheet-info:hover  {
-	display: block;
-}
-
 .stylesheet-info {
 	position: fixed;
 	top: 60px;
@@ -154,22 +146,25 @@ p {
 	font-weight: 500;
 }
 
-/*images*/
+/* 	===========================
+		IMAGES
+	=========================== */
 
 .stylesheet {
 	float: left;
-	width: 39%;
+	width: 80%;
 	margin-left: 90px;
 	margin-top: 50px;
 	outline: 1px solid rgba(0,0,0,0.1);
 	box-shadow: 6px 6px 8px rgba(0,0,0,0.6);
 	z-index: 20;
-	outline: 1px solid rgb(0,0,74)
+	outline: 1px solid rgb(0,0,0,0.5);
 
 }
 
 .stylesheet:hover {;
 	cursor: pointer;
+	outline: 1px solid rgb(0,0,74);
 }
 
 .tote {

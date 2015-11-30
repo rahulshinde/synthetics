@@ -307,6 +307,7 @@ p {
 	.text {
 		float: left;
 		width: 90%;
+		margin-top: 10px;
 	}
 
 	h1 {
